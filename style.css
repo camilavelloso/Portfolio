@@ -1,0 +1,248 @@
+body{
+  border: 7px solid #3D4D5C;
+}
+
+.navbar{
+  padding-top: 40px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  font-size: .9em;
+}
+
+h1{
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 2.5em;
+  width: 70%;
+  margin: 0 auto;
+  font-size: 3em;
+}
+
+/*h2{
+  font-family: 'minerva-modern', sans-serif;
+  color: black;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3{
+  font-family: 'ff-tisa-sans-web-pro',sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.15em;
+  text-align: left;
+  width: 40%;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+
+} *?
+
+.hover-effect{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  width: 100%;
+
+}
+
+.img-responsive{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* Code from https://stackoverflow.com/questions/14263594/how-to-show-text-on-image-when-hovering */
+.img__wrap {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.9);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__description_layer p{
+  width: 85%;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.1em;
+  font-family: 'ff-tisa-sans-web-pro',sans-serif;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+
+.hero-container{
+  height: 75vh;
+}
+
+.design-container{
+  padding: 40px;
+  background-color: #F0F0F0;
+}
+
+.row{
+  width: 100%;
+}
+
+.img-wrap{
+  background-color: #D6D6D6;
+  text-align: center;
+}
+
+h2{
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 2.8em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h3{
+  font-family: 'archetype', serif;
+  font-style: normal;
+  font-size: 1.15em;
+  text-align: justify;
+  text-justify: inter-word;
+  padding: 20px;
+}
+
+.article-container{
+  padding: 40px;
+}
+
+.organization{
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 300;
+  font-size: 1.6em;
+  color: white;
+  text-decoration: underline #98878f;
+}
+
+.article-title{
+  font-family: 'ff-tisa-sans-web-pro',sans-serif;
+  color: black;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.blurb{
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.read-more a{
+  font-family: 'franklin-gothic-urw', sans-serif;
+  font-weight: 300;
+  color:#ff3b3f;
+  text-decoration: underline #192231;
+  /*border-bottom: 1px solid #f0eeee; */
+}
+
+.read-more a:hover{
+  color:#ff3b3f;
+  text-decoration: underline #192231;
+  color: #4D5866;
+  text-decoration: underline #ff3b3f;
+}
+
+.card-header{
+  background-color: #192231;
+}
+
+.card-body{
+  background-color: #FAFAFA;
+}
+
+.card{
+  border: 1px solid #f0eeee;
+}
+
+.camila{
+  width:70%;
+}
+
+.image-container{
+  padding: 40px;
+}
+
+.download{
+  font-family: 'ff-tisa-sans-web-pro',sans-serif;
+  color: black;
+  font-size: 1.1em;
+  font-style: italic;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer{
+  background-color: #F0F0F0;
+}
