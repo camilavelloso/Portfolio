@@ -344,6 +344,10 @@ footer{
   width: 100%;
 }
 
+h1{
+  font-size: 2.5em;
+}
+
 }
 @media only screen and (max-width: 770px) {
   h2 {
@@ -359,7 +363,11 @@ footer{
   }
 }
 
-
+@media only screen and (max-width: 450px) {
+  h1{
+    font-size: 2em;
+  }
+}
 /* Create two equal columns that floats next to each other */
 /* .column {
   float: left;
