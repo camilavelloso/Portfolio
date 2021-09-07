@@ -241,7 +241,7 @@ h3{
 .read-more a{
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
-  color:#ff3b3f;
+  color:darkred;
   text-decoration: underline #192231;
   /*border-bottom: 1px solid #f0eeee; */
 }
@@ -320,7 +320,7 @@ footer{
 }
 
 .download-resume a:hover{
-  color:#ff3b3f;
+  color:darkred;
   border-bottom: 2px solid black;
   text-decoration: none;
 }
